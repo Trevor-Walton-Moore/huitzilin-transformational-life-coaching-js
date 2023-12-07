@@ -1,0 +1,30 @@
+.navBarContainer {
+    margin: 5px 5px;
+    width: 99vw;
+    height: 250px;
+    display: flex;
+    /* border: 1px blue solid; */
+}
+
+.logo {
+    height: 100%;
+}
+
+.linksContainer {
+    display: flex;
+    justify-content: end;
+    width: 80%;
+    /* border: 1px black solid; */
+    height: 30px;
+    margin-top: 40px;
+    /* margin-right: 40px; */
+    column-gap: 30px;
+}
+
+
+.navBarLink {
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    /* border: 1px green solid; */
+}

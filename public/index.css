@@ -1,0 +1,9 @@
+.backgroundImg {
+    background-image: url('https://res.cloudinary.com/dfrj03hsi/image/upload/v1701277838/Huitzilin/beach-path_yjshxg_d14177.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-color: rgb(6, 110, 174);
+}

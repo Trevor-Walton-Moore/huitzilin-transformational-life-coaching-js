@@ -1,6 +1,91 @@
-.headShotContainer {
-    margin: auto;
+.homePageContainer {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.homePageFirst {
+    /* border: 1px yellow solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 12%;
+    height: 70vh;
+    min-height: 465px;
+}
+
+.header {
+    font-size: 55px;
+}
+
+.subHeader {
+    /* margin-top: 45px; */
+    font-size: 30px;
+}
+
+.p {
+    /* margin-top: 45px; */
+    max-width: 42vw;
+    min-width: 250px;
+    word-wrap: break-word;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgb(180, 180, 180);
+    border-radius: 20px;
+    background-color: rgba(180, 180, 180, 0.408);
+}
+
+.consultationButton {
+    /* color: white; */
+    /* margin-top: 40px; */
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: white 2px solid;
+    height: 74px;
+    width: 256px;
+    box-shadow: 0px 0px 0px rgb(180, 180, 180);
+    background-color: rgba(180, 180, 180, 0.359);
+    color: white;
+    transition: 0.1s background-color linear, 0.1s color linear;
+}
+.consultationButton:hover {
+    color: rgb(6, 110, 174);
+    background-color: white;
+    transition: 0.1s background-color linear, 0.1s color linear;
+}
+
+.headShotWelcomeContainer {
+    background-color: white;
+    color: rgb(6, 110, 174);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.welcomeBody {
+    margin: 0px 20px;
+    max-width: 400px;
+    line-height: 40px;
+}
+
+.headShotContainer {
+    display: flex;
     height: 500px;
+}
+
+.headShot {
+    object-fit: contain;
+}
+
+.hereLink {
+    text-decoration: none;
+    color: black;
+}
+
+.hereLink:hover {
+    text-decoration: underline;
 }
